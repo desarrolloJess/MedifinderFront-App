@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondosobre"
+    tools:context=".WearConnectFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:gravity="top"
+        android:background="#99073724">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/icono"
+            android:background="@drawable/circle_background"
+            android:padding="1dp"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center_horizontal"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_margin="10dp"
+            android:background="@drawable/edit_text_rounded_bg"
+            android:padding="16dp">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:text="Conectar con Wearable"
+                    android:textSize="20sp"
+                    android:textColor="@color/vrdOscuro"
+                    android:justificationMode="inter_word"
+                    android:lineSpacingExtra="-2dp"
+                    android:textAlignment="center"
+                    android:lineSpacingMultiplier="1" />
+            </ScrollView>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/txtNodo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Nodo del wearable: No conectado"
+            android:textSize="16sp"
+            android:textColor="@android:color/white"
+            android:layout_marginTop="16dp" />
+
+        <TextView
+            android:id="@+id/txtEstatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Estatus: No conectado"
+            android:textSize="16sp"
+            android:textColor="@android:color/white"
+            android:layout_marginTop="8dp" />
+
+        <Button
+            android:id="@+id/btnConectarWear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Conectar Wear"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="16dp"/>
+
+        <Button
+            android:id="@+id/btnEnviarCredenciales"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Enviar Credenciales"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="16dp" />
+    </LinearLayout>
+
+</FrameLayout>

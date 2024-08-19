@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/framePerfil"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PerfilFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@android:color/white"
+        android:padding="15dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="end|top">
+            <View
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="0.1"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="👤 Modificar Perfil"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:layout_marginBottom="1dp"/>
+            <View
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1"/>
+
+        </LinearLayout>
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@android:color/white"
+                android:padding="16dp">
+
+                <EditText
+                    android:id="@+id/editTextNombre"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Nombre"
+                    android:inputType="textPersonName"
+                    android:padding="10dp"
+                    android:textColor="#000000"
+                    android:textColorHint="#626262"
+                    android:background="@drawable/edit_text_rounded_bg"
+                    android:layout_marginBottom="8dp"/>
+
+                <EditText
+                    android:id="@+id/editTextApellido"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Apellido"
+                    android:inputType="textPersonName"
+                    android:padding="10dp"
+                    android:textColor="#000000"
+                    android:textColorHint="#626262"
+                    android:background="@drawable/edit_text_rounded_bg"
+                    android:layout_marginBottom="8dp"/>
+
+                <EditText
+                    android:id="@+id/editTextEmail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Correo electrónico"
+                    android:inputType="textEmailAddress"
+                    android:padding="10dp"
+                    android:textColor="#000000"
+                    android:textColorHint="#626262"
+                    android:background="@drawable/edit_text_rounded_bg"
+                    android:layout_marginBottom="8dp"/>
+
+                <EditText
+                    android:id="@+id/editTextContrasena"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Contraseña"
+                    android:inputType="textPassword"
+                    android:padding="10dp"
+                    android:textColor="#000000"
+                    android:textColorHint="#626262"
+                    android:background="@drawable/edit_text_rounded_bg"
+                    android:layout_marginBottom="8dp"/>
+
+
+
+                <EditText
+                    android:id="@+id/editTextFechaNacimiento"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Fecha de Nacimiento"
+                    android:padding="10dp"
+                    android:textColor="#000000"
+                    android:textColorHint="#626262"
+                    android:background="@drawable/edit_text_rounded_bg"
+                    android:layout_marginBottom="8dp"
+                    android:focusable="false"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="end"
+                    android:layout_marginBottom="50dp">
+
+                    <!-- EditText para Teléfono -->
+                    <EditText
+                        android:id="@+id/editTextTelefono"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:hint="Teléfono"
+                        android:inputType="phone"
+                        android:textColor="#000000"
+                        android:textColorHint="#626262"
+                        android:padding="10dp"
+                        android:background="@drawable/edit_text_rounded_bg"/>
+
+                    <!-- Spinner para Sexo -->
+                    <Spinner
+                        android:id="@+id/spinnerSexo"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:prompt="@string/sexo_prompt"
+                        android:textColor="#000000"
+                        android:textColorHint="#000000"
+                        android:entries="@array/sexo_options"
+                        android:minHeight="48dp"
+                        android:layout_marginStart="8dp"/>
+
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/btnActualizarDatos"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Actualizar Datos"
+                    android:backgroundTint="@color/verde"
+                    android:textColor="#FFFFFF"
+                    android:textAllCaps="false"
+                    android:layout_marginBottom="50dp"
+                    />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</FrameLayout>

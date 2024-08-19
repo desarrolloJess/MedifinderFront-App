@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Medifinder_App</string>
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+    <string name="hello_world">From the Square world,\nHello, %1$s!</string>
+    <string name="title_activity_appointment_details">AppointmentDetailsActivity</string>
+    <string name="title_activity_appointment_confirm">AppointmentConfirmActivity</string>
+    <string name="title_activity_appointment_cancel">AppointmentCancelActivity</string>
+    <string name="title_activity_appointment_canceled">AppointmentCanceledActivity</string>
+    <string name="title_activity_appointment_confirmed">AppointmentConfirmedActivity</string>
+    <string name="title_activity_appointment_canceled_error">AppointmentCanceledErrorActivity
+    </string>
+    <string name="title_activity_appointment_confirmed_error">AppointmentConfirmedErrorActivity
+    </string>
+</resources>

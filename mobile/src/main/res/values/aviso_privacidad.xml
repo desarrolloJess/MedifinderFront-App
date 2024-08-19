@@ -1,0 +1,31 @@
+<resources>
+    <string name="aviso_privacidad_text">
+        Aviso de Privacidad
+                \n\nBienvenido a MediFinder. En nuestra aplicación, nos comprometemos a proteger su privacidad y a manejar su información personal con la máxima confidencialidad. Este Aviso de Privacidad describe cómo recopilamos, usamos, almacenamos y compartimos la información que usted nos proporciona al utilizar nuestra aplicación.
+                \n\n🗃️ Información que Recopilamos
+                    \nPara proporcionar nuestros servicios de acceso inmediato a especialistas médicos y ofrecer información clara y confiable, recopilamos la siguiente información:
+                    \n\n⦿ Información Personal: Incluye su nombre, dirección de correo electrónico, número de teléfono y otra información de contacto.
+                    \n⦿ Información de Salud: Detalles sobre su estado de salud, tratamientos y consultas médicas.
+                    \n⦿ Información de Cuenta: Datos necesarios para su registro y administración de la cuenta, como nombre de usuario, contraseña y preferencias.
+                    \n\n📋 Uso de la Información
+                    \nLa información que recopilamos se utiliza para:
+                    \n\n⦿ Proporcionar y Mejorar Servicios: Facilitar la búsqueda de doctores, la consulta de calendarios de citas, la solicitud de citas, y la gestión de información de perfil.
+                    \n⦿ Comunicación: Contactarle para confirmaciones de citas, actualizaciones importantes, y otros asuntos relacionados con su uso de la aplicación.
+                    \n⦿ Seguridad y Soporte: Asegurar la seguridad de nuestros servicios y ofrecer soporte técnico cuando sea necesario.
+                    \n\n🗂️ Protección de Datos
+                    \nImplementamos medidas de seguridad adecuadas para proteger su información personal contra acceso no autorizado, alteración, divulgación o destrucción. Sus datos se almacenan en servidores seguros y se transmiten de manera encriptada.
+                    \n\n📑 Compartición de Información\nNo compartimos su información personal con terceros, excepto en los siguientes casos:
+                    \n\n⦿ Con su Consentimiento: Cuando usted autoriza la divulgación de su información.
+                    \n⦿ Requerimientos Legales: Si es requerido por la ley, o para proteger nuestros derechos, propiedad o seguridad.
+                    \n\n👤 Sus Derechos
+                    \n Usted tiene el derecho de acceder, corregir o eliminar su información personal. Para ejercer estos derechos, por favor, contáctenos a través de medifinder@gmail.com .
+                    \n\n🛠 Cambios en el Aviso de Privacidad
+                    \nNos reservamos el derecho de actualizar este Aviso de Privacidad en cualquier momento. Cualquier cambio será publicado en esta página con una fecha de actualización.
+                    \n\☎ Contacto
+                    \nSi tiene alguna pregunta o inquietud acerca de este Aviso de Privacidad o el manejo de su información personal, por favor, póngase en contacto con nosotros en:
+                    \n\n✉️ Correo Electrónico: medifinder@gmail.com
+                    \n\n Última actualización: 25 de Julio del 2024
+    </string>
+
+
+</resources>

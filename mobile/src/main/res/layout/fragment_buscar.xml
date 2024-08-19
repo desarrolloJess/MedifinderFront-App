@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BuscarFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/white"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Toolbar con SearchView -->
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="?attr/colorPrimary"
+            android:elevation="4dp"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+            android:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+
+            <SearchView
+                android:id="@+id/searchView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:queryHint="Buscar doctor por especialidad"
+                android:iconifiedByDefault="false"
+                android:background="@android:color/transparent" />
+
+        </androidx.appcompat.widget.Toolbar>
+
+        <!-- Spinner para las especialidades -->
+        <Spinner
+            android:id="@+id/spinnerEspecialidades"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:textColor="#000000"
+            android:textColorHint="#000000"
+            android:entries="@array/especialidad_array" />
+
+        <!-- Contenedor para los datos de los doctores -->
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_marginBottom="50dp">
+            <LinearLayout
+                android:id="@+id/doctorContainer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="1dp"
+                android:background="@android:color/white">
+            </LinearLayout>
+            <!--Si lo quieres visualizar cambia el padding de 1 a 16-->
+        </ScrollView>
+
+    </LinearLayout>
+
+</FrameLayout>
